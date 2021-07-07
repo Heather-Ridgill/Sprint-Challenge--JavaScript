@@ -1,4 +1,4 @@
-# Sprint Challenge: JavaScript Fundamentals
+<!-- # Sprint Challenge: JavaScript Fundamentals
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a survey of problems. This Sprint explored JavaScript Fundamentals. During this Sprint, you studied variables, functions, object literals, arrays, this keyword, prototypes, and class syntax. In your challenge this week, you will demonstrate proficiency by completing a survey of JavaScript problems.
 
@@ -24,21 +24,39 @@ In meeting the minimum viable product (MVP) specifications listed below, you sho
 
 ## Self-Study Questions
 
-Demonstrate your understanding of this week's concepts by answering the following free-form questions.
+Demonstrate your understanding of this week's concepts by answering the following free-form questions. -->
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.forEach executes a provided function once for each array element. 
+.map creates a new array with the results of calling a provided function on every element in the calling array. 
+
 2. What is the difference between a function and a method?
+
+a function is used everywhere in JS. a function calls or describes the object that is needed to be called. Functions create their own scope. What you want to do with that object.
+a method is the way in which you execute the code. 
 
 3. What is closure?
 
+The closure contains all the variables that are in scope at the time of the creation of the function. It keeps and stores all the variables that we have in the scop at the time the function was created. 
+
 4. Describe the four rules of the 'this' keyword.
+
+Global Object Binding- when looking at the value on a global scope  
+
+Implicit Binding- the object before the function is "this"
+
+New binding  -a specific instance  that an obj that is created and returned by the constructor function (object creator=constructor function)
+
+Explicit binding - call and apply methods are used. You can override the constructor objects are set up by calling the new context .call and .apply  
 
 5. Why do we need super() in an extended class?
 
-## Project Set up
+when you put super() that means that it is going to call the method from the class that it extends from. 
+
+<!-- ## Project Set up
 
 Follow these steps to set up and work on your project:
 
@@ -84,4 +102,4 @@ In your solutions, it is essential that you follow best practices and produce cl
 
 ## Stretch Problems
 
-There are a few stretch problems found throughout the files, don't work on them until you are finished with MVP requirements!
+There are a few stretch problems found throughout the files, don't work on them until you are finished with MVP requirements! -->
